@@ -5,13 +5,33 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Enter Title</title>
+    <title>Stress Test</title>
   </head>
 
   <body>
     <div class="container">
+      <header>
+        <h1>Stress Test</h1>
+        <h3>Fill out the survey to identify areas of stress and then to find ways to de-stress.</h3>
+      </header>
 
+      <form id="stress-form">
+        <div class="form-group">
+          <p><strong>Please indicate which warning signs might accurately describe you currently: (check all that apply)</strong></p>
+          <input type="checkbox" name="warning-signs" value="Sleep loss">  Sleep loss<br>
+          <input type="checkbox" name="warning-signs" value="Feeling overwhelmed">  Feeling overhwelmed<br>
+          <input type="checkbox" name="warning-signs" value="Feeling depressed">  Feeling depressed<br>
+          <input type="checkbox" name="warnign-signs" value="Weight"> Weight problems<br>
 
+        </div>
+
+        <button class="btn" type="submit">Submit</button>
+
+      </form>
+
+      <span id="stress-response">
+        <p>You currently exhibit the following symptoms of stress: </p>
+      </span>
 
 
     </div>
