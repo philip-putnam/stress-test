@@ -23,16 +23,44 @@
           <input type="checkbox" name="warning-signs" value="Feeling depressed">  Feeling depressed<br>
           <input type="checkbox" name="warnign-signs" value="Weight"> Weight problems<br>
 
+          <p><strong>Please indicate the symptoms you have been experiencing: (check all that apply)</strong></p>
+
+          <input type="checkbox" name="symptoms" value="High blood pressure"> High blood pressure<br>
+          <input type="checkbox" name="symptoms" value="Anxiety"> Heightened Anxiety<br>
+          <input type="checkbox" name="symptoms" value="Skin rash"> Skin rashes<br>
+
+          <p><strong>Now, indicate current methods that you use to destress: </strong></p>
+
+          <input type="checkbox" name="relievers" value="Exercise"> Exercise<br>
+          <input type="checkbox" name="relievers" value="Meditation"> Meditation<br>
+          <input type="checkbox" name="relievers" value="Time with an animal">  Spend time with a pet<br>
+
         </div>
 
         <button class="btn" type="submit">Submit</button>
 
       </form>
 
-      <span id="stress-response">
-        <p>You currently exhibit the following symptoms of stress: </p>
-      </span>
+      <div class="initially-hidden">
 
+        <p>You currently exhibit the following warning signs of stress: </p>
+
+        <ul>
+          <span id="stress-response"></span>
+        </ul>
+
+        <br><p>These symptoms may be caused by stress: </p>
+
+        <ul>
+          <span id="symptom-response"></span>
+        </ul>
+
+        <br><p>You are currently managing you stress with these current activities: </p>
+        <ul>
+          <span id="stress-relievers"></span>
+        </ul>
+
+      </div>
 
     </div>
   </body>

@@ -2,6 +2,10 @@ header {
   text-align: center;
 }
 
-#stress-response {
+.initially-hidden {
   display: none;
+}
+
+li {
+  line-height: 3px;
 }
