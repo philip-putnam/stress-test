@@ -2,7 +2,7 @@ header {
   text-align: center;
 }
 
-.initially-hidden {
+.initially-hidden, #stressInfo, #healthyInfo {
   display: none;
 }
 
